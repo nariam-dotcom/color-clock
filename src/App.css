@@ -1,0 +1,33 @@
+.clock-container {
+    display: flex ;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(red , pink);
+    color: black;
+    min-height: 90vh;
+    border-radius: 20px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    font-size: large;
+    font-weight: bold;
+    color: brown;
+}
+
+.clock {
+    font-size: medium;
+    font-weight: bolder;
+    color: bisque;
+    letter-spacing: 5px;
+}
+
+.date { 
+    font-size: larger;
+    margin-top: 15px;
+    color: antiquewhite;
+}
